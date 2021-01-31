@@ -1,2 +1,12 @@
 # typescript-template
 
+Template project for TypeScript NPM libraries
+
+Includes:
+
+* Linting with ESLint
+* Testing with Mocha
+* Coverage with NYC/Istanbul
+* Build to a `lib` directory
+* Alarmist configuration to watch for changes with Chokidar
+
