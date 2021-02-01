@@ -1,16 +1,20 @@
 {
-  "name": "typescript-template",
-  "version": "1.0.0",
-  "description": "Template project for TypeScript NPM libraries",
-  "author": "Peter Halliday <pghalliday@gmail.com>",
+  "name": "{{cookiecutter.project_name}}",
+  "version": "0.0.0",
+  "description": "{{cookiecutter.description}}",
+  "author": "{{cookiecutter.full_name}} <{{cookiecutter.email}}> ({{cookiecutter.website}})",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:pghalliday/typescript-template.git"
+    "url": "git+https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}.git"
   },
+  "bugs": {
+    "url": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/issues"
+  },
+  "homepage": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}#readme",
   "main": "lib/index.js",
   "scripts": {
-    "cmd:lint": "eslint . --ext .ts",
+    "cmd:lint": "eslint .. --ext .ts",
     "cmd:test": "nyc mocha",
     "cmd:coverage": "nyc report -r text && nyc check-coverage",
     "cmd:build": "rimraf lib && tsc",

@@ -1,7 +1,3 @@
 .DS_Store
-/node_modules/
 /.idea/
-/lib/
-/coverage/
-/.alarmist/
-/.nyc_output/
+
