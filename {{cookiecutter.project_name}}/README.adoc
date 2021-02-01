@@ -1,7 +1,7 @@
 = {{cookiecutter.project_name}}
 
-[![test](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/workflows/build/badge.svg)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/actions?query=workflow%3Abuild)
-[![Coverage Status](https://coveralls.io/repos/github/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/badge.svg?branch=main)](https://coveralls.io/github/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}?branch=main)
+image:https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/workflows/build/badge.svg["Build Status", link="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/actions?query=workflow%3Abuild"]
+image:https://coveralls.io/repos/github/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/badge.svg?branch=main["Coverage Status", link="https://coveralls.io/github/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}?branch=main"]
 
 {{cookiecutter.description}}
 
