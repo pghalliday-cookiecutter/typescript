@@ -4,5 +4,8 @@
   "github_username": "pghalliday",
   "full_name": "Peter Halliday",
   "email": "pghalliday@gmail.com",
-  "website": "https://pghalliday.com"
+  "website": "https://pghalliday.com",
+  "_copy_without_render": [
+    ".github/workflows/build.yml"
+  ]
 }

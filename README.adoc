@@ -1,6 +1,6 @@
 = typescript
 
-Project template for NodeJS applications
+Project template for TypeScript NPM libraries
 
 == Usage
 
@@ -20,5 +20,5 @@ git init
 git remote add origin <github repository>
 git add -A
 git commit -m "boiler plate"
-git push --set-upstream origin master
+git push --set-upstream origin main
 ----
